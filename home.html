@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Практика с Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Навигационная панель -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <!-- Добавляем логотип-картинку справа -->
+    <div class="d-flex justify-content-between w-100">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Другое</a>
+          </li>
+        </ul>
+      </div>
+      <!-- Логотип-картинка -->
+      <a href="#"><img src="img/png-transparent-logo-design-emblem-logo-wings.png" alt="Логотип" class="img-fluid" style="height: 50px;"></a>
+    </div>
+  </div>
+</nav>
+
+<!-- Основной контейнер -->
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-8 bg-warning">
+      <h1>Малютка</h1>
+      <p>Шукаємо добрі руки для чудового котика!
+
+        Цей чарівний пухнастик шукає будинок, де його любитимуть і піклуватимуться. Котику близько 2 років, він дуже лагідний та доброзичливий. Прекрасно ладнає з дітьми та іншими тваринами. Любить грати і муркотіти на колінах. Котик повністю здоровий, привчений до лотка і вже щеплений.
+
+        Якщо ви хочете подарувати цьому диву тепло та затишок, зв'яжіться з нами! Ми впевнені, що цей хвостатий друг принесе багато радості та любові до вашої оселі.
+
+        Знайдемо йому справжню родину! ❤️</p>
+    </div>
+    <div class="col-md-4 bg-light">
+      <img src="img/cat.jpeg" alt="Картинка" class="img-fluid">
+    </div>
+  </div>
+</div>
+
+<!-- Добавляем кнопку "Связаться" в самый низ страницы -->
+<div class="container mt-4 text-center">
+  <button class="btn btn-warning btn-lg">Зв'язатися</button>
+</div>
+
+<!-- Скрипты Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
